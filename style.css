@@ -29,9 +29,11 @@ font-family: 'Rubik', sans-serif;
 section{
     display: flex;
 }
-.link-botton{
+.link-batton{
     color: white;
     background-image: linear-gradient( rgb(116, 63, 165), blue);
+    padding: 10px 30px;
+    font-weight: 500;
     border-radius: 5px;
 }
 .mission{
@@ -41,19 +43,19 @@ section{
 }
 .mision-hader{
     background-color: honeydew;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-left: 8%;
     margin-right:10px;
 }
 .vission{
     background-color: rgb(178, 247, 178);
-    border-radius: 50px;
+    border-radius: 20px;
     margin-left: 10px;
     margin-right: 8px;
 }
 .goals{
     background-color: rgb(114, 210, 248);
-    border-radius: 50px;
+    border-radius: 20px;
     margin-right: 8%;
     margin-left: 10px;
 }
@@ -63,6 +65,20 @@ section{
 .one-third img{
 width: 33.33%;
 }
-.half-width-dev{
-    width: 20%;
+.text-wdith{
+    width: 65%;
+}
+.code-width img{
+    width: 33%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.global-com{
+    width: 65%;
+    margin-left: 100px;
+    margin-top: 5%;
+}
+.global-com img{
+    width: 60%;
+    padding-left: 25%;
 }
