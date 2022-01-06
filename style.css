@@ -30,6 +30,15 @@ section{
     display: flex;
 }
 .link-batton{
+    width: 200px;
+    color: white;
+    background-image: linear-gradient( rgb(116, 63, 165), blue);
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.last-batton{
+    width: 100px;
     color: white;
     background-image: linear-gradient( rgb(116, 63, 165), blue);
     padding: 10px 30px;
@@ -39,7 +48,10 @@ section{
 .mission{
     color: rgb(103, 74, 128);
     text-align: center;
-    margin-left: 35%;
+    margin-left: 33%;
+}
+.color-stay{
+    color: orange;
 }
 .mision-hader{
     background-color: honeydew;
@@ -81,4 +93,40 @@ width: 33.33%;
 .global-com img{
     width: 60%;
     padding-left: 25%;
+}
+.add{
+    width: 50%;
+}
+.add img{
+    width: 70%;
+    padding-left: 5%;
+    margin-top: 20%;
+}
+.half-width-text{
+    width: 50%;
+    padding-right: 20%;
+}
+.secand-bannar{
+    background-size: 15%;
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.third-bannan{
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: right bottom;
+}
+.possition-center{
+    text-align: center;
+}
+footer{
+    height: 150px ;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.red{
+    color: red;
 }
