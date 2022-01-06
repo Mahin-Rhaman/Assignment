@@ -1,10 +1,13 @@
+.tytle-font{
+    font-size: 50px;
+}
 section{
     font-family: 'Abril Fatface', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'Rubik', sans-serif;
 }
 .color-mission{
-    color: rgb(99, 221, 221);
+    color: aqua;
 }
 .border{
     border: none;
@@ -12,7 +15,8 @@ font-family: 'Rubik', sans-serif;
     border-left: solid;
     border-image: linear-gradient(aqua, blue);
     border-image-slice: 5;
-    padding: left 100px;
+    padding-left: 2%;
+
 }
 .half-width{
     width: 40%;
@@ -24,4 +28,41 @@ font-family: 'Rubik', sans-serif;
 }
 section{
     display: flex;
+}
+.link-botton{
+    color: white;
+    background-image: linear-gradient( rgb(116, 63, 165), blue);
+    border-radius: 5px;
+}
+.mission{
+    color: rgb(103, 74, 128);
+    text-align: center;
+    margin-left: 35%;
+}
+.mision-hader{
+    background-color: honeydew;
+    border-radius: 50px;
+    margin-left: 8%;
+    margin-right:10px;
+}
+.vission{
+    background-color: rgb(178, 247, 178);
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+.goals{
+    background-color: rgb(114, 210, 248);
+    border-radius: 50px;
+    margin-right: 8%;
+    margin-left: 10px;
+}
+.margins{
+    margin-left: 5%;
+}
+.one-third img{
+width: 33.33%;
+}
+.half-width-dev{
+    width: 20%;
 }
